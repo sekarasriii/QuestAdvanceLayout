@@ -41,4 +41,6 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
             ),
+            shape = RoundedCornerShape(12.dp)
+        ) {}
 }
