@@ -76,6 +76,7 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center
         ) {
+            //menambahkan copyright 2025
             Text(
                 text = stringResource(id = R.string.copy),
                 modifier = Modifier
