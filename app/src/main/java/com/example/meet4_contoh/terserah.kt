@@ -175,6 +175,8 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 text = stringResource(id = R.string.copy),
                 //mengganti warna tulisan menjadi Gray
                 color = Color.Gray,
+                //mengubah teks menjadi tebal (bold)
+                fontWeight = FontWeight.Bold,
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
                     .padding(bottom = 50.dp)
