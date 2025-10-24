@@ -81,7 +81,20 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 containerColor = Color.Blue
             ),
             shape = RoundedCornerShape(12.dp)
-        )
+        ) {
+            Row(
+                modifier = Modifier.padding(8.dp)
+            ) {
+                val gambar = painterResource(id = R.drawable.logoumy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+            }
+        }
         Box(
             modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center
