@@ -119,6 +119,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+        )
         Box(
             modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center
