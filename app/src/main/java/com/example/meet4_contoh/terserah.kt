@@ -14,6 +14,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.unit.sp
+
 
 @Composable
 fun AktivitasPertama(modifier: Modifier = Modifier) {
@@ -96,21 +98,21 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 Spacer(modifier = Modifier.width(30.dp))
                 Column{
                     Text(
-                        text = "Salsabila Nurul"
+                        text = "Salsabila Nurul",
                         fontSize = 30.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
                     Text(
-                        text = "20230140100"
+                        text = "20230140100",
                         fontSize = 20.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
-                        text = "Kota Baru"
+                        text = "Kota Baru",
                         fontSize = 20.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.White,
@@ -150,7 +152,7 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         modifier = Modifier.padding(top = 15.dp)
                     )
                     Text(
-                        text = "20230140101"
+                        text = "20230140101",
                         fontSize = 20.sp,
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
