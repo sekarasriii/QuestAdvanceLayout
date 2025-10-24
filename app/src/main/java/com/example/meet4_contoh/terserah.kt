@@ -56,7 +56,7 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         .size(100.dp)
                         .padding(5.dp)
                 )
-                Spacer(modifier = Modifier.width(30.dp))
+                Spacer(modifier = Modifier.height(30.dp))
                 Column {
                     Text(
                         text = stringResource(id = R.string.nama),
@@ -173,6 +173,8 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             //menambahkan copyright 2025
             Text(
                 text = stringResource(id = R.string.copy),
+                //mengganti warna tulisan menjadi Gray
+                color = Color.Gray,
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
                     .padding(bottom = 50.dp)
