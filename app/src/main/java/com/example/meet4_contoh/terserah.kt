@@ -155,6 +155,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
                     )
+                    Text(
+                        text = "Kebun Kopi",
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
                 }
             }
         }
