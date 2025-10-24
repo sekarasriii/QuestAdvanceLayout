@@ -93,6 +93,30 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         .size(100.dp)
                         .padding(5.dp)
                 )
+                Spacer(modifier = Modifier.width(30.dp))
+                Column{
+                    Text(
+                        text = "Salsabila Nurul"
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        text = "20230140100"
+                        fontSize = 20.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.Yellow,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = "Kota Baru"
+                        fontSize = 20.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
+                }
             }
         }
         Box(
